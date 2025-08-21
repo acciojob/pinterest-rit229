@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* or row based on your design */
+}
+.hero img {
+    width: 100%; /* or a specific width */
+    height: auto; /* maintain aspect ratio */
+    object-fit: cover; /* cover the area */
+}
+.explore-button {
+    padding: 10px 20px;
+    background-color: #ff0000; /* choose your color */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
